@@ -1,0 +1,22 @@
+body {
+   background-color: #ccc;
+}
+
+ol {
+   list-style: none;
+   font-size: 1.2rem;
+   padding-inline-start: 1.5rem;
+}
+
+ol > li:before {
+   content: attr(number) ". ";
+}
+
+li {
+   margin-top: 0.5rem;
+}
+
+button {
+   width: 1.7rem;
+   height: 1.7rem;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Tabbed List</title>
+
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <script src="script.js" defer></script>
+   </head>
+   <body>
+      <ol id="root-list">
+         <li number="1">
+            <input type="text" />
+            <button class="create-down">&#8595;</button>
+            <button class="create-sub">&#8627;</button>
+            <button class="remove">&#x2715;</button>
+         </li>
+         <li number="2">
+            <input type="text" />
+            <button class="create-down">&#8595;</button>
+            <button class="create-sub">&#8627;</button>
+            <button class="remove">&#x2715;</button>
+            <ol>
+               <li number="2.1">
+                  <input type="text" />
+                  <button class="create-down">&#8595;</button>
+                  <button class="create-sub">&#8627;</button>
+                  <button class="remove">&#x2715;</button>
+               </li>
+               <li number="2.2">
+                  <input type="text" />
+                  <button class="create-down">&#8595;</button>
+                  <button class="create-sub">&#8627;</button>
+                  <button class="remove">&#x2715;</button>
+               </li>
+               <li number="2.3">
+                  <input type="text" />
+                  <button class="create-down">&#8595;</button>
+                  <button class="create-sub">&#8627;</button>
+                  <button class="remove">&#x2715;</button>
+               </li>
+            </ol>
+         </li>
+         <li number="3">
+            <input type="text" />
+            <button class="create-down">&#8595;</button>
+            <button class="create-sub">&#8627;</button>
+            <button class="remove">&#x2715;</button>
+         </li>
+      </ol>
+      <template id="tli">
+         <li number="">
+            <input type="text" />
+            <button class="create-down">&#8595;</button>
+            <button class="create-sub">&#8627;</button>
+            <button class="remove">&#x2715;</button>
+         </li>
+      </template>
+   </body>
+</html>
